@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Checklist Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Automated Security Checklist Builder</h1>
+  <form id="checklistForm">
+    <label for="industry">Select your industry:</label>
+    <select id="industry" name="industry">
+      <option value="retail">Retail</option>
+      <option value="healthcare">Healthcare</option>
+      <option value="technology">Technology</option>
+      <option value="finance">Finance</option>
+    </select>
+    <button type="button" id="generateChecklist">Generate Checklist</button>
+  </form>
+  <div id="checklistOutput"></div>
+  <button id="downloadChecklist" style="display: none;">Download as PDF</button>
+  <script src="script.js"></script>
+</body>
+</html>
